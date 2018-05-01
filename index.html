@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Spire Digital</h1>
+
     <div class="navigation">
      <!--  <button class="navigation__button"><span class="navigation__icon">&nbsp;</span></button> -->
       <a href="#" class="navigation__button"><span class="navigation__icon">&nbsp;</span></a>
@@ -30,45 +30,58 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link" data-link="home"><span>01</span>Home</a>
+            <a href="#" class="navigation__link" data-link="home">Home</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link" data-link="about"><span>02</span>Our Approach</a>
+            <a href="#" class="navigation__link" data-link="about">Our Approach</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link" data-link="skills"><span>03</span>Services</a>
+            <a href="#" class="navigation__link" data-link="skills">Services</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link" data-link="projects"><span>04</span>Case Studies</a>
+            <a href="#" class="navigation__link" data-link="projects">Case Studies</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link" data-link="testimonial"><span>05</span>Blogs</a>
+            <a href="#" class="navigation__link" data-link="testimonial">Blogs</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link" data-link="contact"><span>06</span>Contact</a>
+            <a href="#" class="navigation__link" data-link="contact">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
 
     <header class="header" >
+          <div class="overlay"></div>
             <div class="header__logo-box">
-                <img class="header__logo" src="img/logo.png" alt="Logo" >
+                <img class="header__logo" src="img/spire-logo.png" alt="Logo" >
                 <!-- <span class="logo-dot">&#0149;</span> -->
             </div>
             <div class="header__text-box">
+              <div class="bg-video">
+                  <video class="bg-video__content"  autoplay muted loop>
+                      <source src="img/header.mp4" type="video/mp4">
+                      <!-- <source src="img/testimonial.webm" type="video/webm"> -->
+                      <source src="img/header.mov" type="video/mov">
+                            your browser is not supported!
+                  </video>
+              </div>
+              <div class="header__content-centered">
                 <h1 class="heading-primary">
                     <span class="heading-primary--main">
-                      Digital & Brand <span>development Agency</span>
+                      Digital & Brand <span class="heading-primary--break">development Agency</span>
                     </span>
                     <span class="heading-primary--sub">
-                        {using a cutomer centric approach}
+                        { using a customer centric approach }
                     </span>
                 </h1>
+              </div>
+              <div class="header--arrow">
+                    <a href="#" class="btn btn--white btn--animated" id="read-more"><img src="img/arrow-down.png" alt="down arrow to navigate to the next section" width="50"></a>
+              </div>
+          </div>
 
-                <a href="#" class="btn btn--white btn--animated" id="read-more">Read More</a>
-            </div>
-        </header>
+      </header>
 
 
   </body>
