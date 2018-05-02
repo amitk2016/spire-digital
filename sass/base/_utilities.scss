@@ -1,0 +1,42 @@
+.u-center-text{ text-align:center; }
+.u-left-text{ text-align:left; }
+
+// bottom margin
+.u-margin-bottom-small{ margin-bottom:1.5rem; }
+
+// Margin-top
+.u-margin-top-small{ margin-top:1.5rem; }
+.u-margin-top-big{ margin-top:8rem; }
+.u-margin-top-huge{ margin-top:10rem; }
+
+.padding-top-bottom{
+  padding-top:80px;
+  padding-bottom:80px;
+
+  &--less{
+    padding-top: 40px;
+    padding-bottom:40px;
+  }
+}
+.margin--auto{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.max-width{
+  &--1040{
+    max-width:1040px;
+  }
+
+  &--1140{
+    max-width: 1140px;
+  }
+}
+.image-height--400{
+  max-height:400px;
+}
+
+#particles-js{
+  position: relative;
+  z-index: 100;
+}

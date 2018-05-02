@@ -1,3 +1,13 @@
+// Mixins for clearfix
+@mixin clearfix{
+
+	&::after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+
 
 
 //Mixins for centering the text in a box

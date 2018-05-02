@@ -4,14 +4,28 @@ body{
 	color:$color-grey;
 }
 
+.body-text{
+	font-size:17px;
+	line-height:32px;
+	color:$color-body-light-grey;
+
+	&--bigger{
+		color:$color-body-light-grey;
+		font-size:24px;
+		line-height: 40px;
+
+	}
+}
+
 .heading-primary{
   color:$color-white;
   text-align: center;
   position: relative;
   z-index: 2;
-  font-size:6.4rem;
-  font-weight: 300;
+  font-size:64px;
+  font-weight:300;
   letter-spacing: 0px;
+	line-height: 1.6;
 
   &--break{
     display: block;
@@ -24,10 +38,33 @@ body{
   }
 
   &--sub{
-    font-size:1.5rem;
+    font-size:15px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing:3px;
-    font-weight:400;
+    font-weight:600;
     text-transform: uppercase;
   }
+}
+
+.heading-secondary{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform:uppercase;
+	line-height: 18px;
+	color:$color-heading-dark-grey;
+	font-weight:700;
+	letter-spacing: 3px;
+}
+
+.heading-third{
+	font-size:28px;
+	color:$color-heading-dark-grey;
+}
+
+
+// Slider text for homepage
+.slider-text{
+	font-size:44px;
+	line-height: 54px;
+	color:$color-body-light-grey;
 }

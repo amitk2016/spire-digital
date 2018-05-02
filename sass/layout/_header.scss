@@ -1,7 +1,9 @@
 .header{
-  position:relative;
   height:100vh;
-  z-index:2;
+  background-image:url(../img/bg.jpg);
+	background-size: cover;
+	background-position:top;
+	position: relative;
 
   &__content-centered{
     @include ContentCenter;
@@ -14,7 +16,7 @@
 
   }
   &__logo{
-    height:5.5rem;
+    height:50px;
   }
 
   &--arrow{
