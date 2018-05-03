@@ -3,6 +3,7 @@
 
 // bottom margin
 .u-margin-bottom-small{ margin-bottom:1.5rem; }
+.u-margin-bottom-medium{ margin-bottom:3.5rem; }
 
 // Margin-top
 .u-margin-top-small{ margin-top:1.5rem; }
@@ -18,6 +19,9 @@
     padding-bottom:40px;
   }
 }
+.padding-bottom{
+  padding-bottom:25px;
+}
 .margin--auto{
   margin-left:auto;
   margin-right:auto;
@@ -32,11 +36,6 @@
     max-width: 1140px;
   }
 }
-.image-height--400{
-  max-height:400px;
-}
-
-#particles-js{
-  position: relative;
-  z-index: 100;
+.image-height--500{
+  max-height:500px;
 }

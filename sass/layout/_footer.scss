@@ -1,0 +1,46 @@
+footer{
+  background-color: $color-heading-dark-grey;
+  padding-top:60px;
+  padding-bottom:60px;
+  font-size: 14px;
+  a{
+    color:white;
+    margin-bottom:10px;
+    display: inline-block;
+
+    &:hover,&:active,&:visited{
+      color:white;
+    }
+  }
+  i{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .footer-icon-margin-left{
+    margin-left:20px;
+    display: inline-block;
+    margin-bottom:10px;
+  }
+}
+.copyright{
+  background-color:$color-footer-copyright;
+  padding-top:25px;
+  padding-bottom:20px;
+  div{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  ul{
+    margin-bottom:0px;
+    margin-top:-10px;
+  }
+  li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size:22px;
+    cursor: pointer;
+  }
+  i{
+    color:$color-body-light-grey;
+  }
+}

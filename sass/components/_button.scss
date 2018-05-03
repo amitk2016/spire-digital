@@ -10,6 +10,7 @@
 		font-size:13px;
     letter-spacing: 2px;
 		position: relative;
+		font-weight:bold;
 
 	}
 
@@ -17,4 +18,31 @@
     background-color: $color-primary;
     color:#fff;
   }
+	&__transperant{
+		color:#fff;
+		border:1px solid white;
+	}
+}
+
+// Bootstrap button style changes
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:12px 35px;
+	display: inline-block;
+	transition:all 0.2s;
+	font-size:13px;
+	letter-spacing: 2px;
+	position: relative;
+	border:none;
+	border-radius: 0px;
+	&-primary{
+		background-color: $color-primary;
+    color:#fff;
+	}
+	&:hover,&:visited{
+		background-color:darken($color-primary,15%);
+		color:white;
+	}
 }

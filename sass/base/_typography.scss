@@ -54,11 +54,36 @@ body{
 	color:$color-heading-dark-grey;
 	font-weight:700;
 	letter-spacing: 3px;
+
+	&--white{
+		color:white;
+	}
+
+	&--small{
+		font-size:14px;
+
+	}
+	&--grey{
+		color:$color-body-light-grey;
+	}
+	&--lowercase{
+		text-transform:initial;
+	}
+
+	&--margin-bottom{
+		margin-bottom:30px;
+	}
 }
 
 .heading-third{
 	font-size:28px;
 	color:$color-heading-dark-grey;
+
+	&__bigger{
+		font-size:36px;
+		line-height: 44px;
+		color:white;
+	}
 }
 
 
@@ -67,4 +92,12 @@ body{
 	font-size:44px;
 	line-height: 54px;
 	color:$color-body-light-grey;
+
+	&--link-image{
+		width:13px;
+	}
+
+	&--margin-bottom{
+		margin-bottom:20px;
+	}
 }
