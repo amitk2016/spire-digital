@@ -239,16 +239,19 @@ body {
   padding-right: 0px; }
 
 .fixed-background {
-  background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/news-homepage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center; }
+  .fixed-background--news {
+    background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/news.jpg"); }
+  .fixed-background--testimonial {
+    background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/approach-testimonial.jpg"); }
   .fixed-background--text {
     position: relative;
     z-index: 3; }
@@ -264,7 +267,7 @@ body {
   position: relative; }
   .header__our-approach {
     height: 80vh;
-    background-image: linear-gradient(to right bottom, rgba(48, 71, 105, 0.8), rgba(48, 71, 105, 0.6)), url(../img/our-approach.jpg); }
+    background-image: linear-gradient(to right bottom, rgba(48, 71, 105, 0.8), rgba(48, 71, 105, 0.6)), url(../img/our-approach-bg.jpg); }
   .header__content-centered {
     position: absolute;
     top: 50%;

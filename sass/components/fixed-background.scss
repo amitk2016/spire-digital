@@ -1,14 +1,20 @@
 .fixed-background{
-  background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/news-homepage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top:18rem;
-  padding-bottom:18rem;
+  padding-top:14rem;
+  padding-bottom:14rem;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &--news{
+    background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/news.jpg");
+  }
+  &--testimonial{
+    background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/approach-testimonial.jpg");
+  }
 
   &--text{
     position: relative;
