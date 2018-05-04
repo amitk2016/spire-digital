@@ -256,6 +256,21 @@ body {
     position: relative;
     z-index: 3; }
 
+.images--full-width {
+  width: 100%;
+  height: 100%; }
+
+.images--grey-hover-color {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray;
+  /* IE5+ */
+  -webkit-filter: grayscale(1);
+  /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .9s ease-in-out; }
+  .images--grey-hover-color:hover {
+    filter: none;
+    -webkit-filter: grayscale(0); }
+
 .navigation {
   display: none; }
 
