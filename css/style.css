@@ -1,8 +1,8 @@
-/*
-
-0-600px       	phone
-600px-900px    	tablet porttrait
-900px-1200px  	tablet landscape
+.contact {
+  background: #4bc3d6;
+  padding-top: 11rem;
+  padding-bottom: 11rem; }
+dscape
 1200px-1800px 	is where normal style apply
 1800px-above	big desktop
 
