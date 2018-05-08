@@ -14,6 +14,17 @@
   }
   &--testimonial{
     background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/approach-testimonial.jpg");
+    background-attachment:scroll;
+    background-position: center center;
+  }
+  &--our-approach-image{
+    background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/our-approach-fixed-image.jpg");
+    padding-top:25rem;
+    padding-bottom:25rem;
+  }
+
+  &--user-insight{
+    background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/user-insights.jpg");
   }
 
   &--text{

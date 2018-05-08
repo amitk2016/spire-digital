@@ -112,6 +112,9 @@ body {
     color: #666; }
   .heading-secondary--lowercase {
     text-transform: initial; }
+  .heading-secondary--blue {
+    color: #4bc3d6;
+    font-size: 26px; }
   .heading-secondary--margin-bottom {
     margin-bottom: 30px; }
 
@@ -122,6 +125,8 @@ body {
     font-size: 36px;
     line-height: 44px;
     color: white; }
+  .heading-third--line-height54 {
+    line-height: 54px; }
 
 .slider-text {
   font-size: 44px;
@@ -172,6 +177,9 @@ body {
 
 .max-width--1140 {
   max-width: 1140px; }
+
+.max-width--1240 {
+  max-width: 1240px; }
 
 .image-height--500 {
   max-height: 500px; }
@@ -251,7 +259,15 @@ body {
   .fixed-background--news {
     background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/news.jpg"); }
   .fixed-background--testimonial {
-    background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/approach-testimonial.jpg"); }
+    background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/approach-testimonial.jpg");
+    background-attachment: scroll;
+    background-position: center center; }
+  .fixed-background--our-approach-image {
+    background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/our-approach-fixed-image.jpg");
+    padding-top: 25rem;
+    padding-bottom: 25rem; }
+  .fixed-background--user-insight {
+    background-image: linear-gradient(to bottom, rgba(48, 71, 105, 0.65), rgba(48, 71, 105, 0.65)), url("../img/user-insights.jpg"); }
   .fixed-background--text {
     position: relative;
     z-index: 3; }
@@ -271,6 +287,11 @@ body {
     filter: none;
     -webkit-filter: grayscale(0); }
 
+.contact {
+  background: #4bc3d6;
+  padding-top: 11rem;
+  padding-bottom: 11rem; }
+
 .navigation {
   display: none; }
 
@@ -281,7 +302,7 @@ body {
   background-position: top;
   position: relative; }
   .header__our-approach {
-    height: 80vh;
+    height: 70vh;
     background-image: linear-gradient(to right bottom, rgba(48, 71, 105, 0.8), rgba(48, 71, 105, 0.6)), url(../img/our-approach-bg.jpg); }
   .header__content-centered {
     position: absolute;
