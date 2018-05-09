@@ -16,6 +16,33 @@
   		,rgba($overlay-color,0.6)),url(../img/our-approach-bg.jpg);
   }
 
+  &__user-insights{
+    height:70vh;
+    background-image:linear-gradient(
+      to right bottom
+      ,rgba($overlay-color,0.8)
+      ,rgba($overlay-color,0.6)),url(../img/user-insights.jpg);
+    background-position: center center;
+  }
+  &__brand-strategy{
+    height:70vh;
+    background-image:linear-gradient(
+      to right bottom
+      ,rgba($overlay-color,0.8)
+      ,rgba($overlay-color,0.6)),url(../img/brand-strategy.jpg);
+    background-position: center center;
+  }
+
+  &__website-design{
+    height:70vh;
+    background-image:linear-gradient(
+      to right bottom
+      ,rgba($overlay-color,0.8)
+      ,rgba($overlay-color,0.6)),url(../img/website-bg.jpg);
+    background-position: center center;
+  }
+
+
   &__content-centered{
     @include ContentCenter;
   }

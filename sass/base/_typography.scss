@@ -91,20 +91,13 @@ body{
 	&--line-height54{
 		line-height: 54px;
 	}
-}
 
-
-// Slider text for homepage
-.slider-text{
-	font-size:44px;
-	line-height: 54px;
-	color:$color-body-light-grey;
-
-	&--link-image{
-		width:13px;
+	&--grey{
+		color:$color-heading-dark-grey;
 	}
-
-	&--margin-bottom{
-		margin-bottom:20px;
+	&--smaller{
+		font-size:22px;
+		line-height:38px;
+		color:$color-body-light-grey;
 	}
 }

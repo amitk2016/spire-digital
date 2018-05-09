@@ -2,26 +2,3 @@
   height:540px;
   background-color: #f2f2f2;
 }
-#slider{
-  position: relative;
-  height:540px;
-  width:100%;
-  padding-left: 50px;
-  padding-left: 50px;
-
-}
-#slider > div{
-  position: absolute;
-  top:0px;
-  left:0px;
-  right:0px;
-  bottom:0px;
-  // background-color:red;
-}
-.slider-text-div{
-  // background:green;
-  position: absolute;
-  left:50%;
-  top:50%;
-  transform:translate(-30%,-50%);
-}

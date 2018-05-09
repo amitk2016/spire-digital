@@ -27,6 +27,15 @@
     background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/user-insights.jpg");
   }
 
+  &--news-insight{
+      background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/govt-image.jpg");
+      background-position: center center;
+  }
+  &--website-development{
+    background-image:linear-gradient(to bottom, rgba(48, 71, 105, .65), rgba(48, 71, 105, .65)),url("../img/website-development.jpg");
+    background-position: center center;
+  }
+
   &--text{
     position: relative;
     z-index: 3;

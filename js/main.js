@@ -14,6 +14,12 @@ $(document).ready(function(){
           .appendTo('#slider');
       }
   }
+
+  //Bootstrap slider propoerties
+  $('.carousel').carousel({
+      interval: 6000,
+      pause:"hover"
+    })
 });
 
 

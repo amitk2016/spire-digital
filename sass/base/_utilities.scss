@@ -4,11 +4,17 @@
 // bottom margin
 .u-margin-bottom-small{ margin-bottom:1.5rem; }
 .u-margin-bottom-medium{ margin-bottom:3.5rem; }
+.u-margin-bottom-15px{margin-bottom:15px;}
 
 // Margin-top
 .u-margin-top-small{ margin-top:1.5rem; }
 .u-margin-top-big{ margin-top:8rem; }
 .u-margin-top-huge{ margin-top:10rem; }
+
+//text --break
+.text--break{
+  display: block;
+}
 
 .padding-top-bottom{
   padding-top:80px;
@@ -18,6 +24,10 @@
     padding-top: 40px;
     padding-bottom:40px;
   }
+  &--bigger{
+    padding-top:180px;
+    padding-bottom:180px;
+  }
 }
 .padding-bottom{
   padding-bottom:25px;
@@ -25,6 +35,16 @@
 .margin--auto{
   margin-left:auto;
   margin-right:auto;
+}
+.gutter-15 {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
 }
 
 .max-width{
@@ -41,4 +61,24 @@
 }
 .image-height--500{
   max-height:500px;
+}
+
+// bootstrap css change
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .carousel-indicators li {
+      position: relative;
+      bottom:-50px;
+      border-radius: 12px;
+      width: 12px;
+      height: 12px;
+      border:1px solid #333;
+      background-color: transparent;
+}
+
+  .carousel-indicators .active {
+      background-color: $color-body-light-grey;
 }
