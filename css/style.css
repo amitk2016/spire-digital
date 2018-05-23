@@ -39,7 +39,6 @@ html {
 
 body {
   box-sizing: border-box;
-  color: #4bc3d6;
   font-family: 'Playfair Display', serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
@@ -63,7 +62,7 @@ img {
 body {
   font-size: 16px;
   line-height: 1.7;
-  color: #f7f7f7; }
+  background-color: #f7f7f7; }
 
 .body-text {
   font-size: 17px;
@@ -373,6 +372,19 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-30%, -50%); }
+
+.slider-text {
+  font-size: 44px;
+  line-height: 54px;
+  color: #666; }
+  .slider-text--smaller {
+    font-size: 17px;
+    line-height: 32px;
+    color: #333; }
+  .slider-text--link-image {
+    width: 13px; }
+  .slider-text--margin-bottom {
+    margin-bottom: 20px; }
 
 .navigation {
   display: none; }
